@@ -25,7 +25,7 @@ function App() {
               exact
               key={index}
               path={router.path}
-              render={router.component}
+              component={router.component}
             />
           )
         })}

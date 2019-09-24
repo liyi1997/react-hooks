@@ -4,7 +4,7 @@ const One = () => {
   return (
     <div>
       <div>{count}</div>
-      {/* <button onClick={() => setCount(count + 1)}>Click me</button> */}
+      <button onClick={() => setCount(count + 1)}>Click me</button>
     </div>
   )
 }
